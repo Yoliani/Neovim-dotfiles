@@ -162,6 +162,8 @@ Plug 'natebosch/vim-lsc-dart'
 "Tema
 Plug 'drewtempelmeyer/palenight.vim'
 
+"COC
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 "*****************************************************************************
 "*****************************************************************************
 
@@ -742,5 +744,5 @@ nnoremap <leader>fR :FlutterHotRestart<cr>
 nnoremap <leader>fs :FlutterSplit<cr>
 nnoremap <leader>fe :FlutterEmulators<cr>
 
-
+let g:jedi#completions_enabled = 1
 
