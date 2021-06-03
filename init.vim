@@ -1,5 +1,11 @@
-" vim-bootstrap 2021-06-02 17:26:21
-
+"" /$$$$$$ /$$   /$$ /$$$$$$ /$$$$$$$$     /$$    /$$ /$$$$$$ /$$      /$$
+""|_  $$_/| $$$ | $$|_  $$_/|__  $$__/    | $$   | $$|_  $$_/| $$$    /$$$
+ "" | $$  | $$$$| $$  | $$     | $$       | $$   | $$  | $$  | $$$$  /$$$$
+ "" | $$  | $$ $$ $$  | $$     | $$       |  $$ / $$/  | $$  | $$ $$/$$ $$
+ "" | $$  | $$  $$$$  | $$     | $$        \  $$ $$/   | $$  | $$  $$$| $$
+ "" | $$  | $$\  $$$  | $$     | $$         \  $$$/    | $$  | $$\  $ | $$
+  "" /$$$$$$| $$ \  $$ /$$$$$$   | $$    /$$   \  $/    /$$$$$$| $$ \/  | $$
+  "|______/|__/  \__/|______/   |__/   |__/    \_/    |______/|__/     |__/" 
 "*****************************************************************************
 "" Vim-Plug core
 "*****************************************************************************
@@ -147,6 +153,14 @@ Plug 'posva/vim-vue'
 Plug 'leafOfTree/vim-vue-plugin'
 
 
+"Dart/Flutter
+"
+Plug 'dart-lang/dart-vim-plugin'
+Plug 'thosakwe/vim-flutter'
+Plug 'natebosch/vim-lsc'
+Plug 'natebosch/vim-lsc-dart'
+"Tema
+Plug 'drewtempelmeyer/palenight.vim'
 
 "*****************************************************************************
 "*****************************************************************************
@@ -719,5 +733,14 @@ Plug 'ryanoasis/vim-devicons'
 "
 map <C-J> :bnext<CR>
 map <C-K> :bprev<CR>
+
+"Configuracion de teclas de Flutter
+nnoremap <leader>fa :FlutterRun<cr>
+nnoremap <leader>fq :FlutterQuit<cr>
+nnoremap <leader>fr :FlutterHotReload<cr>
+nnoremap <leader>fR :FlutterHotRestart<cr>
+nnoremap <leader>fs :FlutterSplit<cr>
+nnoremap <leader>fe :FlutterEmulators<cr>
+
 
 
