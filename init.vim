@@ -161,6 +161,11 @@ Plug 'dart-lang/dart-vim-plugin'
 Plug 'thosakwe/vim-flutter'
 Plug 'natebosch/vim-lsc'
 Plug 'natebosch/vim-lsc-dart'
+Plug 'voldikss/vim-floaterm'  
+Plug 'christoomey/vim-tmux-navigator'
+Plug 'Yggdroot/indentLine'
+Plug 'easymotion/vim-easymotion'
+
 "Tema
 Plug 'drewtempelmeyer/palenight.vim'
 
@@ -761,4 +766,13 @@ let g:NERDTreeGitStatusIndicatorMapCustom = {
                 \ 'Clean'     :'✔︎',
                 \ 'Unknown'   :'?',
                 \ }
+
+
+
+let g:kite_supported_languages = [ 'javascript', 'go']
+let g:kite_tab_complete=1
+"let g:kite_auto_complete=1
+
+
+
 
