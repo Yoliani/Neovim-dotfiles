@@ -1,0 +1,11 @@
+colorscheme dracula
+"colorscheme onedark
+
+
+
+
+
+
+
+
+

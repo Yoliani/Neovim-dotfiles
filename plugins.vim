@@ -161,7 +161,7 @@ Plug 'easymotion/vim-easymotion'
 
 "Tema
 Plug 'drewtempelmeyer/palenight.vim'
-
+Plug 'joshdick/onedark.vim'
 "COC
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 "*****************************************************************************

@@ -97,9 +97,9 @@ endif
 
 "" Buffer nav
 noremap <leader>z :bp<CR>
-noremap <leader>q :bp<CR>
+"noremap <leader>q :bp<CR>
 noremap <leader>x :bn<CR>
-noremap <leader>w :bn<CR>
+"noremap <leader>w :bn<CR>
 
 "" Close buffer
 noremap <leader>c :bd<CR>
@@ -131,11 +131,6 @@ nnoremap <silent> <leader>sh :terminal<CR>
 
 
 nnoremap <silent> <expr> <F6> g:NERDTree.IsOpen() ? "\:NERDTreeClose<CR>" : bufexists(expand('%')) ? "\:NERDTreeFind<CR>" : "\:NERDTree<CR>"
-
-"Cambiar con CTRL FLECHA IZQ 
-"
-map <C-J> :bnext<CR>
-map <C-K> :bprev<CR>
 
 "Configuracion de teclas de Flutter
 nnoremap <leader>fa :FlutterRun<cr>

@@ -7,6 +7,20 @@
   "" /$$$$$$| $$ \  $$ /$$$$$$   | $$    /$$   \  $/    /$$$$$$| $$ \/  | $$
   "|______/|__/  \__/|______/   |__/   |__/    \_/    |______/|__/     |__/" 
 
+
+
+""            ,-._
+""           _.-'  '--.
+""         .'      _  -`\_
+""        / .----.`_.'----'
+""        ;/     `
+""       /_;
+"          Edgardo Yoliani
+""    ._      ._      ._      ._
+" _.-._)`\_.-._)`\_.-._)`\_.-._)`\_.-._
+"
+"    https://github.com/Yoliani
+
 "Plugins
 source $HOME/.config/nvim/plugins.vim
 "Plugins config
@@ -34,7 +48,10 @@ source $HOME/.config/nvim/autocmd.vim
 source $HOME/.config/nvim/mappings.vim
 "Languages
 source $HOME/.config/nvim/languages/languages.vim
+"Tema
 
+source $HOME/.config/nvim/themes/themes.vim
+"source $HOME/.config/nvim/themes/onedark.vim
 
 "" Include user's local vim config
 if filereadable(expand("~/.config/nvim/local_init.vim"))

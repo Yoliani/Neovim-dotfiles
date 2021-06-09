@@ -48,11 +48,9 @@ set ruler
 set number
 
 let no_buffers_menu=1
-colorscheme dracula
-
 
 set mousemodel=popup
-set t_Co=256
+"set t_Co=256
 set guioptions=egmrti
 set gfn=Monospace\ 10
 
