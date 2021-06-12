@@ -29,3 +29,5 @@ augroup END
 
 set autoread
 
+"autocmd Filetype python nnoremap <buffer> <F5> :w<CR>:ter python2 "%"<CR>
+autocmd Filetype python nnoremap <buffer> <F5> :w<CR>:vert ter python3 "%"<CR>

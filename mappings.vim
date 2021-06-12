@@ -155,3 +155,6 @@ cnoreabbrev W w
 cnoreabbrev Q q
 cnoreabbrev Qall qall
 
+
+
+"nnoremap <F5> :!python3 %:p<cr>
