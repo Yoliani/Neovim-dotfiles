@@ -52,6 +52,9 @@ Plug 'dracula/vim', { 'as': 'dracula' }
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'ryanoasis/vim-devicons' "Iconos NERDTree"
 Plug 'vwxyutarooo/nerdtree-devicons-syntax'
+
+"Autocompletado
+Plug 'valloric/youcompleteme'
 if isdirectory('/usr/local/opt/fzf')
   Plug '/usr/local/opt/fzf' | Plug 'junegunn/fzf.vim'
 else
@@ -115,6 +118,7 @@ Plug 'stephpy/vim-php-cs-fixer'
 "" Python Bundle
 Plug 'davidhalter/jedi-vim'
 Plug 'raimon49/requirements.txt.vim', {'for': 'requirements'}
+Plug 'vim-python/python-syntax'
 
 
 " rust

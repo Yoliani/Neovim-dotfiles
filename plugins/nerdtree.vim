@@ -14,20 +14,19 @@ nnoremap <silent> <F2> :NERDTreeFind<CR>
 
 "
 "NERDTREE git status 
+
 let g:NERDTreeGitStatusIndicatorMapCustom = {
-                \ 'Modified'  :'✹',
-                \ 'Staged'    :'✚',
-                \ 'Untracked' :'✭',
-                \ 'Renamed'   :'➜',
-                \ 'Unmerged'  :'═',
-                \ 'Deleted'   :'✖',
-                \ 'Dirty'     :'✗',
-                \ 'Ignored'   :'☒',
-                \ 'Clean'     :'✔︎',
-                \ 'Unknown'   :'?',
-                \ }
-
-
+    \ "Modified"  : "M",
+    \ "Staged"    : "A",
+    \ "Untracked" : "U",
+    \ "Renamed"   : "➜",
+    \ "Unmerged"  : "═",
+    \ "Deleted"   : "D",
+    \ "Dirty"     : "●",
+    \ "Clean"     : "✓",
+    \ 'Ignored'   : '✗',
+    \ "Unknown"   : "?"
+    \ }
 
 "
 "

@@ -13,7 +13,7 @@ set tabstop=4
 set softtabstop=0
 set shiftwidth=4
 set expandtab
-
+set cursorline
 "" Map leader to ,
 let mapleader=','
 
@@ -93,7 +93,7 @@ set titlestring=%F
 
 set statusline=%F%m%r%h%w%=(%{&ff}/%Y)\ (line\ %l\/%L,\ col\ %c)\
 
-
+set updatetime=300
 
 if exists("*fugitive#statusline")
   set statusline+=%{fugitive#statusline()}

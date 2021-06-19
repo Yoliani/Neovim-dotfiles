@@ -48,8 +48,10 @@ source $HOME/.config/nvim/autocmd.vim
 source $HOME/.config/nvim/mappings.vim
 "Languages
 source $HOME/.config/nvim/languages/languages.vim
-"Tema
 
+
+
+"Tema
 source $HOME/.config/nvim/themes/themes.vim
 "source $HOME/.config/nvim/themes/onedark.vim
 
